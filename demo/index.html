@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MediaElement.js 4.2.x - audio/video unification library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="../build/mediaelementplayer.css">
+</head>
+
+<body>
+
+            <div class="media-wrapper">
+                <video id="player1" width="640" height="360" style="max-width:100%;" poster="http://www.mediaelementjs.com/images/big_buck_bunny.jpg" preload="none" controls playsinline webkit-playsinline>
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/BigBuckBunny.mp4" type="video/mp4">
+                    <track srclang="de" kind="subtitles" src="german.vtt" label="German with lines">
+                    <track srclang="en" kind="subtitles" src="english.vtt" default>
+                    <track srclang="en" kind="chapters" src="english_chapters.vtt">
+                    <track srclang="de" kind="chapters" src="german_chapters.vtt">
+                </video>
+            </div>
+            
+
+
+    <script src="../build/mediaelement-and-player.js"></script>
+</body>
+</html>
